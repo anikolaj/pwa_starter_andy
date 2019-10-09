@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "IBM PWA Demo",
+  "short_name": "PWA",
   "lang": "en-US",
   "start_url": "/",
   "icons":[
