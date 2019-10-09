@@ -20,6 +20,6 @@ self.addEventListener('install', function(e) {
 
 self.addEventListener('fetch', function(e) {
   e.respondWith(caches.match(e.request).then(function(response) {
-    retuern response || fetch(e.request);
+    return response || fetch(e.request);
   }) );
 });
